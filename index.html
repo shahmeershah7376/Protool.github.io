@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free CapCut templates, video effects, AI tools, and content creation resources. Everything a creator needs, in one place." />
+  <title>Creator Hub - Free Video Tools & Templates</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f7f8fa; color: #111; }
+    header, footer { background: #111; color: white; padding: 1.5rem; text-align: center; }
+    h1, h2 { margin-bottom: 0.5rem; }
+    main { padding: 2rem; max-width: 800px; margin: auto; }
+    section { margin-bottom: 2rem; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 1rem; }
+    a { color: #0066cc; text-decoration: none; }
+    nav ul { display: flex; justify-content: center; gap: 1.5rem; padding: 0; margin: 1rem 0; }
+    nav li { display: inline; }
+    input, button { padding: 0.5rem 1rem; margin-top: 0.5rem; }
+  </style>
+
+  <!-- Google AdSense (replace with your own ID) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXX" crossorigin="anonymous"></script>
+
+  <!-- Google Analytics (replace G-XXXXXXX with your own) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Creator Hub</h1>
+    <p>All-in-one free tools, templates, AI content and downloads.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#downloads">Downloads</a></li>
+      <li><a href="#tools">AI Tools</a></li>
+      <li><a href="#admin">Admin</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="downloads">
+      <h2>📥 Free Template Packs</h2>
+      <ul>
+        <li><a href="downloads/mrbeast-pack.zip" download>🎞️ MrBeast CapCut Pack</a></li>
+        <li><a href="downloads/sound-pack.zip" download>🔊 Viral Meme Sound Effects</a></li>
+        <li><a href="downloads/shorts-style.zip" download>📱 Shorts Caption Styles</a></li>
+        <li><a href="downloads/thumbnails.zip" download>🎯 YouTube Thumbnail Templates</a></li>
+      </ul>
+    </section>
+
+    <section id="tools">
+      <h2>🛠️ AI Tools for Creators</h2>
+      <ul>
+        <li><a href="https://www.canva.com" target="_blank">🎨 Use Canva Editor</a></li>
+        <li><a href="https://runwayml.com" target="_blank">✨ AI Video Enhancer</a></li>
+        <li><a href="https://chat.openai.com" target="_blank">💬 AI Script Generator</a></li>
+        <li><a href="https://www.capcut.com/tools" target="_blank">📲 CapCut Online Tools</a></li>
+      </ul>
+    </section>
+
+    <section id="admin">
+      <h2>🔐 Admin Panel</h2>
+      <form onsubmit="checkPassword(event)">
+        <input type="password" id="adminPass" placeholder="Enter admin password" required />
+        <button type="submit">Login</button>
+      </form>
+      <div id="adminContent" style="display:none;">
+        <h3>📊 Site Analytics</h3>
+        <p>You are viewing protected admin stats. Google Analytics tracking is enabled.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Creator Hub. All content free and open-source. Built by creators, for creators.</p>
+  </footer>
+
+  <script>
+    function checkPassword(e) {
+      e.preventDefault();
+      const pass = document.getElementById('adminPass').value;
+      if (pass === '5595302') {
+        document.getElementById('adminContent').style.display = 'block';
+      } else {
+        alert('Wrong password!');
+      }
+    }
+  </script>
+
+</body>
+</html>
